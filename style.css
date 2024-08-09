@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+header {
+  background-color: aliceblue;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=style.css.map */
