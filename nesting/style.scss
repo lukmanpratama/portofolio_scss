@@ -17,15 +17,24 @@
 //     }
 // }
 
+// .main {
+//     .container & {
+//         background-color: lightblue;
+//     }
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     &:hover {
+//         background-color: salmon;
+//     }
+// }
+
 .main {
-    .container & {
-        background-color: lightblue;
-    }
-    .main-heading {
+    & &-heading {
         font-size: 2em;
     }
-
-    &:hover {
-        background-color: salmon;
+    & &-paragraph {
+        font-size: 1.5em;
     }
 }
