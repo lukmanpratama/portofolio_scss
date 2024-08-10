@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container .main {
+  background-color: lightblue;
+}
+
+.main .main-heading {
+  font-size: 2em;
+}
+/*# sourceMappingURL=style.css.map */

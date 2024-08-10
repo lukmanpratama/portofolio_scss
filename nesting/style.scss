@@ -16,3 +16,12 @@
 //         letter-spacing: 1px;
 //     }
 // }
+
+.main {
+    .container & {
+        background-color: lightblue;
+    }
+    .main-heading {
+        font-size: 2em;
+    }
+}
