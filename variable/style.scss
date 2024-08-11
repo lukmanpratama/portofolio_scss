@@ -14,15 +14,17 @@
 
 // SASS variable
 
-$primary-color: #f4f1de; //variable global
-$secondary-color: #f2cc8f;
-$text-color: #c87a5f;
+// $primary-color: #f4f1de; //variable global
+// $secondary-color: #f2cc8f;
+// $text-color: #c87a5f;
 
-body {
-    $primary-color: green !global; //variable local
-    background-color: $primary-color;
-}
+// body {
+//     $primary-color: green !global; //variable local
+//     background-color: $primary-color;
+// }
 
-h1 {
-    color: $primary-color;
-}
+// h1 {
+//     color: $primary-color;
+// }
+
+//map
