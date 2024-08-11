@@ -17,3 +17,11 @@
 $primary-color: #f4f1de;
 $secondary-color: #f2cc8f;
 $text-color: #c87a5f;
+
+body {
+    background-color: $primary-color;
+}
+
+h1 {
+    color: $text-color;
+}
