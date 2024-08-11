@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li {
+  background-color: black;
+  padding: 0.7em;
+}
+
+.header ul li a {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
