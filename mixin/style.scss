@@ -33,14 +33,14 @@
 }
 
 //arguments
-@mixin flex-box {
+@mixin flex-box($direction: row, $space: center) {
     display: flex;
-    justify-content: center;
+    justify-content: $space;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: $direction;
 }
 .container {
-    @include flex-box();
+    @include flex-box(row-reverse,space-between);
     width: 800px;
     height: 600px;
     background-color: #eaeaea;
