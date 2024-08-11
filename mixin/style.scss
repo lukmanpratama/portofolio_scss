@@ -40,6 +40,7 @@
     flex-direction: row-reverse;
 }
 .container {
+    @include flex-box();
     width: 800px;
     height: 600px;
     background-color: #eaeaea;
