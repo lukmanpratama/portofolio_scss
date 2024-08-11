@@ -16,4 +16,24 @@
 .header ul li a {
   color: white;
 }
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li {
+  background-color: salmon;
+  padding: 0.5em;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
