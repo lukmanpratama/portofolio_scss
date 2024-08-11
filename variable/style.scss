@@ -33,3 +33,7 @@ $alert : (
     'success': green,
     'warning': orange,
 );
+
+h1 {
+    color: map-get($alert, 'success' );
+}
