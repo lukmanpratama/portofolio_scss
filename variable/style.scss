@@ -14,15 +14,15 @@
 
 // SASS variable
 
-$primary-color: #f4f1de;
+$primary-color: #f4f1de; //variable global
 $secondary-color: #f2cc8f;
 $text-color: #c87a5f;
 
 body {
-    $primary-color: green;
+    $primary-color: green !global; //variable local
     background-color: $primary-color;
 }
 
 h1 {
-    color: $text-color;
+    color: $primary-color;
 }
