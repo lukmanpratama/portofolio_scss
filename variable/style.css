@@ -3,4 +3,8 @@
   --secondary-color: #f2cc8f;
   --text-color: #c87a5f;
 }
+
+body {
+  background-color: var(--primary-color);
+}
 /*# sourceMappingURL=style.css.map */
